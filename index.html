@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Nucleotype</title>
+    <link rel="Stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;0,700;1,600;1,900&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/logo1.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">CONTACT US</a></li>
+                <li><a href="">SEARCH</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<div class="text-box">
+    <h1>Know about Nucleotides</h1>
+    <p> A nucleotide is the basic building block of nucleic acids. RNA and DNA are polymers made of long chains of nucleotides.<br> A nucleotide consists of a sugar molecule (either ribose in RNA or deoxyribose in DNA) attached to a phosphate group and a nitrogen-containing base.
+    </p>
+    <a href="" class="hero-btn">Visit to know more</a>
+</div>
+
+</section>
+
+<!------ Course ------>
+
+<section class="Base">
+    <h1>Some key knowledges</h1>
+    <p>Purines and pyrimidines are the two families of nitrogenous bases that make up nucleic acids – in other words, they are the building blocks of DNA and RNA. There are two main types of purine: Adenine and Guanine. Both of these occur in both DNA and RNA. There are three main types of pyrimidines, however only one of them exists in both DNA and RNA: Cytosine. The other two are Uracil, which is RNA exclusive, and Thymine, which is DNA exclusive.</p>
+
+    <div class="row">
+        <div class="Base-col">
+            <h3>Purines</h3>
+            <p>Purine is a heterocyclic aromatic organic compound composed of a pyrimidine ring fused with imidazole ring. It comprises adenine and guanine as nucleobases. It consists of two hydrogen-carbon rings and four nitrogen atoms. Catabolism of purines results in the production of uric acid</p>
+        </div>
+        <div class="Base-col">
+            <h3>Purines</h3>
+            <p>Purine is a heterocyclic aromatic organic compound composed of a pyrimidine ring fused with imidazole ring. It comprises adenine and guanine as nucleobases. It consists of two hydrogen-carbon rings and four nitrogen atoms. Catabolism of purines results in the production of uric acid.
+            </p>
+        </div>
+        <div class="Base-col">
+            <h3>Pyrimidines</h3>
+            <p>Pyrimidine is a heterocyclic aromatic organic compound that is composed of carbon and hydrogen. It comprises Cytosine, thymine, uracil as nucleobases. It consists of one hydrogen-carbon ring and two nitrogen atoms. Catabolism of pyrimidines produces carbon dioxide, beta-amino acids and ammonia.
+            </p>
+        </div>
+        <div class="Base-col">
+            <h3>Nucleosides</h3>
+            <p>If a sugar, either ribose or 2-deoxyribose, is added to a nitrogen base, the resulting compound is called a nucleoside. Carbon 1 of the sugar is attached to nitrogen 9 of a purine base or to nitrogen 1 of a pyrimidine base. The names of purine nucleosides end in -osine and the names of pyrimidine nucleosides end in -idine. The convention is to number the ring atoms of the base normally and to use l', etc. to distinguish the ring atoms of the sugar. Unless otherwise specificed, the sugar is assumed to be ribose. To indicate that the sugar is 2'-deoxyribose, a d- is placed before the name.</p>
+        </div>
+        <div class="Base-col">
+            <h3>Nucleosides</h3>
+            <p>If a sugar, either ribose or 2-deoxyribose, is added to a nitrogen base, the resulting compound is called a nucleoside. Carbon 1 of the sugar is attached to nitrogen 9 of a purine base or to nitrogen 1 of a pyrimidine base. The names of purine nucleosides end in -osine and the names of pyrimidine nucleosides end in -idine. The convention is to number the ring atoms of the base normally and to use l', etc. to distinguish the ring atoms of the sugar. Unless otherwise specificed, the sugar is assumed to be ribose. To indicate that the sugar is 2'-deoxyribose, a d- is placed before the name.</p>
+        </div>
+        <div class="Base-col">
+            <h3>Nucleotides</h3>
+            <p>Adding one or more phosphates to the sugar portion of a nucleoside results in a nucleotide. Generally, the phosphate is in ester linkage to carbon 5' of the sugar. If more than one phosphate is present, they are generally in acid anhydride linkages to each other. If such is the case, no position designation in the name is required. If the phosphate is in any other position, however, the position must be designated. For example, 3'-5' cAMP indicates that a phosphate is in ester linkage to both the 3' and 5' hydroxyl groups of an adenosine molecule and forms a cyclic structure. 2'-GMP would indicate that a phosphate is in ester linkage to the 2' hydroxyl group of a guanosine.</p>
+        </div>
+
+        
+    </div>
+
+</section>
+
+<section class="">
+
+
+</section>
+
+<!------JavaScript for Toggle Menu----->
+<script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
